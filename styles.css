@@ -1,0 +1,41 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/*Color variables for easy changes to clock color*/
+/*colors: https://www.color-hex.com/color-palette/7712*/
+:root {
+    --black: #000000;
+    --lightBlue: #17D4FE;
+    --electricGreen: #00ff52;
+    --electricPurpule: #5200ff;
+    --electricDRKBlue: #002eff;
+    --electricLilac1: #e0d4ff;
+    --electricLilac2: #c3abff;
+    --electricOrange: #ff7420;
+    --electricYellow: #ffda1e;
+    --electricRed: #ff0000;
+    --HarleyOrange: #ff0000;
+    --richPurple: #240090;
+    --richBlue: #3500d3;
+}
+
+body {
+    background: var(--black);
+}
+
+/*Clock designs: https://freefrontend.com/css-clocks/*/
+/*Clock designs: https://devsnap.me/css-clocks*/
+/*position: absolute; used to postion an element relative to its nearest positioned ancestor.
+If no ancestor, then positions the element relative to the initial containing block.*/
+/*translateX used to move an element along the X-axis by % of its own width.
+translateY used to move an element along the Y-axis by % of its own height.*/
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: var(--HarleyOrange);
+    font-family: 'Orbitron', sans-serif, serif;
+    font-size: 60px;
+    letter-spacing: 7px;
+}
