@@ -16,7 +16,7 @@ This is practice 2/24 using HTML, CSS and Vanilla JavaScript building a simple d
 * https://douglasmarsalis.github.io/JS-Practice-Clock/
 
 ## Images
-
+![Screenshot 2023-12-06 at 5 08 04 PM](https://github.com/douglasmarsalis/JS-Practice-Clock/assets/112460009/6944a8ae-8c9f-4813-aa9e-2bb3e57bb56f)
 
 ## License
 MIT License
